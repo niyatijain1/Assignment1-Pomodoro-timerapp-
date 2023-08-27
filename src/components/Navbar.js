@@ -1,8 +1,4 @@
-
-
-import './Navbar.css'
 import React, { useContext } from 'react';
-
 import { SettingsContext } from '../context/SettingsContext';
 
 const Navbar = () => {
@@ -10,10 +6,9 @@ const Navbar = () => {
 
   return (
    
-    <nav>
-      <div className="nav-container">
+    <nav className='navbar'>
+      
         <button onClick={logout}>Logout</button>
-      </div>
     </nav>
     
   );
